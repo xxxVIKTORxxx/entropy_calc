@@ -13,7 +13,7 @@ def entropy_standard_die():
     """Calculate entropy for a standard 6-sided die."""
     probabilities = [1/6] * 6
     entropy = calculate_entropy(probabilities)
-    print(f"Entropy for standard die: {entropy*5:.4f} bits")
+    print(f"Entropy for standard die: {entropy*5:.4f} bits") # multiplied by 5 for five times event entropy calculation
 
 def entropy_modified_die():
     """Calculate entropy for the modified die (1,2,3,4,5,5)."""
